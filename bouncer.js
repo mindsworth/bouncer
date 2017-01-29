@@ -8,7 +8,7 @@ function bouncer(arr) {
   for(var i = 0; i < arr.length; i++) {
     h = arr[i];
     g = Boolean(h);
-    
+//     WITH A CONDITIONAL STATEMENT HERE
     if(g === true) {
       newArr.push(h);
     }
